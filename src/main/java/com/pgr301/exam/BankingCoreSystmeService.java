@@ -10,9 +10,9 @@ public interface BankingCoreSystmeService {
 
     void transfer(Transaction tx, String fromAccount, String toAccount);
 
-    Account updateAccount(Account a);
+    acount updateAccount(Account a);
 
     BigDecimal balance(@PathVariable String accountId);
 
-    Account getAccount(String acountNumber);
+    account getAccount(String accountNumber);
 }
