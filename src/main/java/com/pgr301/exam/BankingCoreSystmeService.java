@@ -14,5 +14,5 @@ public interface BankingCoreSystmeService {
 
     BigDecimal balance(@PathVariable String accountId);
 
-    Account getAccount(String accountNumber);
+    Account getAccount(String acountNumber);
 }
